@@ -15,6 +15,10 @@
             --profit-green: #39ff14;
         }
 
+        html {
+            scroll-behavior: smooth;
+        }
+
         body {
             background-color: var(--deep-void);
             color: #e2e8f0;
@@ -114,6 +118,15 @@
         </div>
     </section>
 
+    <!-- [ VISUAL_OVERVIEW ] -->
+    <section class="fade-in max-w-5xl mx-auto mt-24 px-6 z-20" style="animation-delay: 1.1s;">
+        <a href="#access-protocol" class="block cursor-pointer">
+            <div class="neon-border bg-black/20 backdrop-blur-sm overflow-hidden rounded-sm transition-transform duration-300 hover:scale-[1.01] active:scale-[0.99]">
+                <img src="gridlog-playstore-featured.webp" alt="GridLog Interface Preview" class="w-full h-auto opacity-90 hover:opacity-100 transition-opacity duration-500">
+            </div>
+        </a>
+    </section>
+
     <!-- [ SYSTEM_SPECS ] -->
     <section class="fade-in max-w-5xl mx-auto mt-24 px-6 w-full z-20" style="animation-delay: 1.2s;">
         <h2 class="mono text-xs uppercase tracking-[0.4em] text-cyan-400 mb-8 text-center">[ SYSTEM_SPECS ]</h2>
@@ -134,7 +147,7 @@
     </section>
 
     <!-- [ ACCESS_PROTOCOL ] -->
-    <section class="fade-in max-w-2xl mx-auto mt-24 px-6 w-full z-20" style="animation-delay: 1.4s;">
+    <section id="access-protocol" class="fade-in max-w-2xl mx-auto mt-24 px-6 w-full z-20" style="animation-delay: 1.4s;">
         <div class="bg-black border border-cyan-900/50 rounded-t-md px-4 py-2 flex items-center gap-2">
             <div class="w-2 h-2 rounded-full bg-rose-600"></div>
             <div class="w-2 h-2 rounded-full bg-amber-500"></div>
